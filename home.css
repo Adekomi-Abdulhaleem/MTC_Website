@@ -1,0 +1,570 @@
+body {padding: 0;
+      margin: 0;
+}
+
+/* styling of the first section*/
+.first {background-color: #524636;
+        color: #F0EAAE;
+        height: fit-content;
+}
+
+.first .row .part_one img {height: 100px;
+                           width: 100px;
+                           margin: 10px 0 0 50%;
+}
+.first .row .part_two {font-size: 50px;
+                       line-height: 120px;
+}
+.first .row .part_three {font-size: 36px;
+                         text-align: center;
+}
+
+/* styling of the second section*/
+.second{background-color: #F0EAAE;
+        height: 90px;
+        padding-top: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+}
+.second   {display: flex;
+           justify-content: center;
+}
+.second .navbar .collapse ul .nav-item a {text-align: center;
+                                        font-size: 24px;
+                                        color: #524636;
+                                        padding-left: 50px;
+}
+/* styling of the third section*/
+.third {background-image: url(../MTC_Website/IMG-20200424-WA0022.jpg);
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation: slider1 20s infinite linear;
+}
+@keyframes slider1 {
+    0% {background: url(../MTC_Website/IMG-20200424-WA0022.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;   
+    }
+    20% {background: url(../MTC_Website/IMG-20200424-WA0022.jpg);
+    }
+    25% {background: url(../MTC_Website/IMG-20200424-WA0027.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;   
+    }
+    45% {background: url(../MTC_Website/IMG-20200424-WA0027.jpg);
+    }
+    50% {background: url(../MTC_Website/IMG-20200424-WA0025.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    70% {background: url(../MTC_Website/IMG-20200424-WA0025.jpg);
+    }
+    75% {background: url(../MTC_Website/IMG-20200424-WA0028.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    95% {background: url(../MTC_Website/IMG-20200424-WA0028.jpg);
+    }
+    100% {background: url(../MTC_Website/IMG-20200424-WA0022.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.third div {background-color: white;
+            opacity: .5;
+            width: 30%;           
+            margin: 50px auto;
+            padding: 30px;
+            font-size: 22px;
+            line-height: 26px;
+}
+.third div h3 {text-align: center;
+               font-size: 40px;
+}
+
+/* styling of the fourth section*/
+.fourth .part_one h3{text-align: center;
+                    font-weight: bold;
+                    font-size:30px;
+                    color: #F0EAAE;
+}
+.fourth .part_two div p {text-align: center; 
+                        padding-top: 50px; 
+                        font-size:20px;
+                        color: #F0EAAE;
+                        line-height: 36px;
+                        letter-spacing: .5px;
+}
+.fourth .part_two div p span {font-weight: 100;
+                              font-style: italic;
+                              opacity: .3;
+                              float: left;
+}
+.fourth .part_two div {display: flex;
+                       justify-content: center;
+}
+.fourth .part_two div img {height: 400px;
+                            width: 400px;
+                            border-radius: 50%;
+}
+
+/* styling of the fifth section*/
+.fifth{background-color: #524636;
+       color: #F0EAAE;
+       font-size: 26px;
+}
+.fifth h2 {text-align: center;
+            color: #bea17a;
+            text-shadow: 5px 5px #777;
+            font-weight: bolder;
+            font-size: 72px;
+}
+.fifth p {text-indent: 60px;
+          letter-spacing: 1px;
+}
+.fifth p span {font-size: 64px;
+               font-family: cursive;
+}
+
+/* styling of the sixth section*/
+.sixth {background-color: #F0EAAE;
+}
+.sixth h1 {text-align: center;
+           font-size: 48px;
+           font-weight: 900;
+           color: #524636;
+           text-shadow: 5px 5px #bea17a;
+}
+.sixth  .caption button {background-color: #F0EAAE;
+                                color: #524636;
+                                border-radius: 30px;
+                                border: 1px solid #524636;
+                                box-shadow: 3px 3px 3px 3px #353433;
+                                transform: scale(1.2);
+}
+.sixth  .caption button:hover, .sixth  .caption button:active {transform: scale(1) ;
+}
+/*part_one of the sixth section*/
+.sixth .part .part_one {background-color: #524636;
+                        border-radius: 30px;
+                        margin-left: 50px;
+                        width: 80%;
+}
+.sixth .part .part_one h3 {letter-spacing: 10px;
+                           font-family: fantasy;
+                           font-size: 36px;
+                           color: #F0EAAE;
+                           text-align: center;
+}
+.sixth .part .part_one .caption {color: #F0EAAE;
+                                 line-height: 25px;
+}
+.sixth .part .part_one .caption button {margin-left: 150px;
+}
+/*part_two*/
+.sixth .part_two {background-color: #524636;
+                        border-radius: 30px;
+                        margin-left: 50px;
+                        width: 80%;
+}
+.sixth .part_two h3 {letter-spacing: 10px;
+    font-family: fantasy;
+    font-size: 36px;
+    color: #F0EAAE;
+    text-align: center;
+}
+.sixth .part_two .caption {color: #F0EAAE;
+                           line-height: 25px;
+}
+.sixth .part_two .caption button {margin-left: 150px;
+}
+
+/* styling of the seventh section*/
+.seventh {background-image: url(../MTC_Website/IMG-20200424-WA0028.jpg);
+        opacity: .6;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;   
+        color: white;  
+        height: 500px;   
+}
+.seventh h2 {text-align: center;
+            font-size: 64px;
+            font-family: cursive;
+            margin-top: 100px;
+            color: #fc9e41;
+            font-weight: bold;
+}
+.seventh ul {display: flex;
+             flex-wrap: wrap;
+             justify-content: space-evenly;
+}
+.seventh ul li p {text-align: center;
+                  font-size: 50px;
+                  font-family: cursive;
+                  font-weight: bold;
+}
+.seventh ul li h5 {text-align: center;
+                   font-size: 36px;
+}
+/* styling of the eightth section*/
+.eightth {background-color: #524636;
+}
+.eightth h1 {text-align: center;
+             color: #F0EAAE;
+             font-size: 48px;
+             font-weight: bold;
+             font-family: 'Times New Roman', Times, serif;
+} 
+.eightth div h2 {text-align: center;
+                 color: #F0EAAE;
+                 font-family: cursive;
+}
+.eightth .part_one, .eightth .part_two, .eightth .part_three {background-color: #F0EAAE;
+                                                              transition: .7s;
+
+}
+.eightth .part_one:hover, .eightth .part_two:hover, .eightth .part_three:hover {box-shadow: 7px 7px 15px 7px #353433;
+}
+.eightth .part_one h3, .eightth .part_two h3, .eightth .part_three h3 {letter-spacing: 10px;
+                                                                       font-family: fantasy;
+                                                                       font-size: 36px;
+                                                                       text-align: center;
+}
+.eightth .part_one .caption, .eightth .part_two .caption, .eightth .part_three .caption {color: #524636;
+                                                                                         line-height: 18px;
+}
+.eightth .part_one .caption button, .eightth .part_two .caption button, .eightth .part_three .caption button {margin-left: 150px;
+                                                                background-color: #F0EAAE;
+                                                                border: 0;
+                                                                text-decoration: underline;
+}
+
+/* styling of the ninth section*/
+.ninth {height: 700px;
+}
+.ninth h1 {text-align: center;
+           font-size: 48px;
+           color: #F0EAAE;
+}
+.ninth div {width: 100%;
+            height: 550px;
+            background-color: #777;
+}
+
+/* styling of the tenth section*/
+.tenth {background-color: #F0EAAE;
+}
+.tenth hr {border-top: 2px groove #524636;
+} 
+.tenth h1 {font-weight: 5;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-style: italic;
+           text-align: center;
+}
+.tenth .part_one img, .tenth .part_two img, .tenth .part_three img {height: 300px;
+                                                                    width: 100%;
+                                                                    position: relative;
+                                                                    z-index: 1;
+}
+.tenth .part_one div, .tenth .part_two div, .tenth .part_three div {background-color: #F0EAAE;
+                                                                    width: 85%;
+                                                                    height: 200px;
+                                                                    position: relative;
+                                                                    z-index: 2;
+                                                                    margin: -70px 0 15px 25px;
+                                                                    border-bottom: 4px solid #524636;
+                                                                    box-shadow: 1px 1px 3px #777;
+                                                                    text-align: center;
+                                                                    color: #524636;
+                                                                    transition: 1.5s;
+}
+.tenth .part_one div:hover, .tenth .part_two div:hover, .tenth .part_three div:hover {background-color: #524636;
+                                                                                      color: #F0EAAE;
+}
+.tenth .part_one div h3, .tenth .part_two div h3, .tenth .part_three div h3 {font-size: 36px;
+                                                                             padding-top: 20px;
+}
+.tenth .part_one div ul, .tenth .part_two div ul, .tenth .part_three div ul {display: flex;
+                                                                            justify-content: space-evenly;
+                                                                            margin-left: 0px;
+}
+.tenth .part_one div ul li i, .tenth .part_two div ul li i, .tenth .part_three div ul li i {font-size: 45px;
+}
+.tenth .part_one div ul li p, .tenth .part_two div ul li p, .tenth .part_three div ul li p {font-size: 24px;
+                                                                                            padding-top: 7px;
+                                                                                            font-style: italic;
+}
+
+/*.tenth .part_one div:hover {background-color: #524636;
+}*/
+
+
+/* styling of the eleventh section*/
+.eleventh {background-color: #524636;
+}
+.eleventh h1 {text-align: center;
+               text-shadow: 5px 5px 4px  #353433;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               font-weight: bold;
+               font-size: 48px;
+}
+.eleventh .part_one, .eleventh .part_two  {width: 53%;
+                                           background-color: #F0EAAE;
+                                           font-family: cursive;
+                                           text-align: center;
+                                           border-radius: 50px 0 0 0;
+                                           margin-left: 100px;
+}
+.twelfth {background-color: #F0EAAE;
+}
+.twelfth h2 {text-align: center;
+             font-size: 30px;
+             font-weight: bold;
+             font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.twelfth .slider-div .slide img {height: 100px;
+                                  width: 100px;
+                                  border-radius: 50%;
+                                  margin: 20px 45% 0;                                 
+}
+.twelfth .slider-div .slide h3 {text-align: center;
+                                 color: #524636;
+                                 font-family: cursive;
+                                 display: block;
+}
+.twelfth .slider-div .slide h3 span {display: block;
+                                      font-size: 16px;
+                                      font-weight: 400;
+                                      font-style: italic;
+                                      margin-top: 5px;
+}
+.twelfth .slider-div .slide .theQuotes {font-style: italic;
+                                         text-align: center;
+                                         margin-top: 5px;
+}
+.twelfth .slider-div .slide .theQuotes h4 {font-size: 30px;
+}
+.twelfth .slider-div {overflow: hidden;
+                      width: 100%;
+                      height: 300px;
+}
+.twelfth .slider-div figure {position: relative;
+                             width: 500%;
+                             margin: 0;
+                             left: 0;
+                             animation: testSlide 20s infinite;
+}
+.twelfth .slider-div figure .slide {width: 20%;
+                                    float: left;
+}
+@keyframes testSlide {
+    0% {
+        margin-left: 0%;
+    }
+    20% {
+        margin-left: 0%;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    95% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -400%;
+    }   
+}
+footer {background-color: rgb(20, 15, 7);
+}
+.first_section {display: flex;
+}
+.first_part{margin: 20px;
+}
+.first_part h2 {font-weight: bold;
+                font-size: 36px;
+                color: #F0EAAE;
+}
+.first_part img {height: 120px;
+                 width: 120px;
+                 margin-left: 20%;
+}
+.first_section .second_part,.first_section .third_part {line-height: 50px;
+                                                        font-size: 18px;
+                                                        color: black;
+}
+.first_section .second_part ul li a,.first_section .third_part ul li a {color: #777;
+                                                                        opacity: .5;
+}
+.second_part {margin: 30px 0 0 -50px;
+}
+.third_part {margin-top: 15px;
+}
+.second_section .first_part ul{display: flex;
+                              justify-content: center;
+}
+.second_section .first_part ul li a {margin-left: 20px;
+                                    color: #777;
+                                    opacity: .5;
+}
+.second_section .second_part {display: flex;
+                              justify-content: center;
+}
+.second_section .second_part i {font-size: 36px;
+                               color: #F0EAAE;    
+                                height: 60px;
+                                width: 60px;
+                                font-size: 36px;
+                                text-align: center;
+                                align-items: center; 
+                                border-radius: 50%;
+                                line-height: 60px;
+                                border: #F0EAAE 2px solid;
+                                margin-left: 10px;
+                                transition: 0.5s;
+}
+.second_section .second_part i:hover {background-color: #F0EAAE;
+                                      color: #524636;
+}
+.second_section  p {color: #777;
+}
+.second_section  p span {color: rgb(56, 66, 29);
+                         opacity: .5;
+}
+ 
+
+.second .row ul {display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul {list-style: none;
+}
+/*
+media query for phones
+*/
+
+@media (max-width: 725px) {
+    /*first section*/
+    /*.container, .first .part_one {padding: 10px 0 0 220px;
+    } 
+    .container, .first .part_two {padding-left: 90px;
+    }
+    .container, .first .part_two span {padding-left: 50px;
+    }*/
+    .first .row .part_one img {height: 60px;
+                               width: 60px;                                                
+    }
+    .first .row .part_two {font-size: 30px;
+                           line-height: 24px;
+                           text-align: center;
+                           margin-top: 10px;
+    }
+    .first .row .part_three {font-size: 20px;
+                             margin: 10px;
+    }
+    .first .row .part_one img {margin-left: 45%;
+    }
+    /*third section*/
+    .third div {width:90%;
+                font-size: 14px;
+                margin-top: 40px;
+                line-height: 18px;
+    }
+    .third div h3 {font-size: 30px;
+                   line-height: auto; 
+    }
+
+    /*fourth section*/
+    .fourth .part_two div p {font-size: 12px;
+    }
+    .fourth .part_two div img {height: 250px;
+                               width: 250px;
+    }
+    .fourth .part_two div p {padding-top: 0;
+                            line-height: 18px;
+    }
+    /*fifth section*/
+    .fifth {font-size: 14px;
+    }
+    .fifth h2 {font-size: 48px;
+               text-shadow: 3px 3px #777;
+    }
+    .fifth p span {font-size: 36px;
+    } 
+    /*sixth section*/
+    .sixth .part .part_one .caption {line-height: 18px;
+                                     font-size: 11px;
+                                     letter-spacing: .7px;
+    }
+    .sixth .part .part_one .caption button {margin-left: 110px;
+    }
+    .sixth .part_two .caption {line-height: 18px;
+                               font-size: 11px;
+                               letter-spacing: .7px;
+    }
+    .sixth .part_two .caption button {margin-left: 110px;
+    }
+    
+    /*seventh section*/
+    .seventh ul li p {font-size: 26px;
+    }
+    .seventh ul li h5 {font-size: 10px;
+    }
+     /*eightth section*/
+     .eightth .part_one .caption, .eightth .part_two .caption, .eightth .part_three .caption {line-height: 23px;
+     } 
+     /*eightth section*/
+     .tenth .part_one div,  .tenth .part_two div,  .tenth .part_three div {width: 80%;
+                                                                            height: 230px;
+                                                                            margin-left: 35px;
+     }
+     .ninth {height: 400px;
+     }
+     .ninth div {height: 250px;
+     }
+     /*twelfth section*/
+     .twelfth .slider-div .slide img {margin-left: 35%;
+     }
+     .twelfth .slider-div .slide .theQuotes {margin-top: 30px;
+     }
+     .twelfth .slider-div .slide .theQuotes h4 {font-size: 24px;
+     }
+     /*thirteenthth section*/
+     .first_part h2 {font-size: 18px;
+     }
+     .first_part img {height: 70px;
+                        width: 70px;
+                        margin-left: 0;
+}
+     .first_section .second_part ul li a,.first_section .third_part ul li a {font-size: 14px;
+     }
+     .second_part, .third_part {margin-right: 20px;
+     }
+     .second_section .second_part i {font-size: 24px;  
+                                     height: 40px;
+                                     width: 40px;
+                                     line-height: 40px;
+     }
+
+} 

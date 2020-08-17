@@ -47,16 +47,22 @@ body {padding: 0;
     0% {background: url(../MTC_Website/IMG-20200424-WA0022.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;   
+        background-position: center;
     }
     20% {background: url(../MTC_Website/IMG-20200424-WA0022.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     25% {background: url(../MTC_Website/IMG-20200424-WA0027.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;   
+        background-position: center;
     }
     45% {background: url(../MTC_Website/IMG-20200424-WA0027.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     50% {background: url(../MTC_Website/IMG-20200424-WA0025.jpg);
         background-repeat: no-repeat;
@@ -64,6 +70,9 @@ body {padding: 0;
         background-position: center;
     }
     70% {background: url(../MTC_Website/IMG-20200424-WA0025.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     75% {background: url(../MTC_Website/IMG-20200424-WA0028.jpg);
         background-repeat: no-repeat;
@@ -71,11 +80,14 @@ body {padding: 0;
         background-position: center;
     }
     95% {background: url(../MTC_Website/IMG-20200424-WA0028.jpg);
-    }
-    100% {background: url(../MTC_Website/IMG-20200424-WA0022.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+    100% {background: url(../MTC_Website/IMG-20200424-WA0022.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
     }
 }
 .third div {background-color: white;
@@ -452,8 +464,6 @@ footer {background-color: rgb(20, 15, 7);
 .second_section  p span {color: rgb(56, 66, 29);
                          opacity: .5;
 }
- 
-
 .second .row ul {display: flex;
     flex-direction: row;
     justify-content: space-around;

@@ -523,18 +523,20 @@ media query for phones
     .fifth p span {font-size: 36px;
     } 
     /*sixth section*/
-    .sixth .part .part_one .caption {line-height: 18px;
-                                     font-size: 11px;
+    .sixth .part .part_one .caption,
+    .sixth .part_two .caption {line-height: 14px;
+                                     font-size: 9px;
                                      letter-spacing: .7px;
     }
-    .sixth .part .part_one .caption button {margin-left: 110px;
+    .sixth .part .part_one .caption button,
+    .sixth .part_two .caption button{margin-left: 90px;
     }
-    .sixth .part_two .caption {line-height: 18px;
+/*     .sixth .part_two .caption {line-height: 18px;
                                font-size: 11px;
                                letter-spacing: .7px;
     }
     .sixth .part_two .caption button {margin-left: 110px;
-    }
+    } */
     
     /*seventh section*/
     .seventh ul li p {font-size: 26px;

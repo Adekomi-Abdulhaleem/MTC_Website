@@ -23,9 +23,6 @@ body {padding: 0;
 .second{background-color: #F0EAAE;
         height: 120px;
         padding-top: 15px;
-        /* position: sticky;
-        top: 0;
-        z-index: 10; */
         border-bottom: 1px solid #524636;
 }
 .second {display: flex;
@@ -110,6 +107,10 @@ body {padding: 0;
                     font-size:30px;
                     color: #F0EAAE;
 }
+.fourth .part_two {display: flex;
+}
+.fourth .part_two div {flex: 1;
+}
 .fourth .part_two div p {text-align: center; 
                         padding-top: 50px; 
                         font-size:20px;
@@ -124,6 +125,7 @@ body {padding: 0;
 }
 .fourth .part_two div {display: flex;
                        justify-content: center;
+                       align-items: center;
 }
 .fourth .part_two div img {height: 400px;
                             width: 400px;
@@ -271,13 +273,8 @@ body {padding: 0;
 .ninth {height: 600px;
         background-color: #524636;
 }
-.ninth h1 {text-align: center;
-           font-size: 48px;
-           color: #F0EAAE;
-}
-.ninth div {width: 100%;
-            height: 550px;
-            background-color: #777;
+.ninth #map {height: 550px;
+             width: 100%;
 }
 
 /* styling of the tenth section*/
@@ -490,13 +487,6 @@ media query for phones
 */
 
 @media (max-width: 725px) {
-    /*first section*/
-    /*.container, .first .part_one {padding: 10px 0 0 220px;
-    } 
-    .container, .first .part_two {padding-left: 90px;
-    }
-    .container, .first .part_two span {padding-left: 50px;
-    }*/
     .first .row .part_one img {height: 60px;
                                width: 60px;                                                
     }
@@ -510,6 +500,13 @@ media query for phones
     }
     .first .row .part_one img {margin-left: 45%;
     }
+    /* second section */
+    .second .navbar {width: 100%;
+    }
+    .second .navbar .collapse ul .nav-item a {font-size: 14px;
+                                              margin-left: -30px;
+                                              /* padding: 30px; */
+    }
     /*third section*/
     .third div {width:90%;
                 font-size: 12px;
@@ -520,16 +517,18 @@ media query for phones
                    line-height: auto; 
     }
     /*fourth section*/
-    .fourth .part_two div p {font-size: 12px;
+    .fourth .part_two{display: flex;
+                      flex-wrap: wrap;
+}
+    .fourth .part_two div p {font-size: 18px;
+                             margin-top: -60px;
+                             line-height: 24px;
     }
-    .fourth .part_two div img {height: 160px;
-                               width: 160px;
-                               position: relative;
-                               top: 50px;
+    .fourth .part_two div img {height: 260px;
+                               width: 260px;
     }
-    .fourth .part_two div p {padding-top: 0;
-                            line-height: 14px;
-    }
+    /* .fourth .part_two div p {
+    } */
     /*fifth section*/
     .fifth {font-size: 14px;
     }
@@ -594,6 +593,9 @@ media query for phones
      .ninth {height: 400px;
      }
      .ninth div {height: 250px;
+     }
+     /* ninth section */
+     .ninth #map {height: 350px;
      }
      /*tenth section*/
      .tenth .part_one div,  .tenth .part_two div,  .tenth .part_three div {width: 85%;

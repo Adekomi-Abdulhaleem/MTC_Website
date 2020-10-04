@@ -105,8 +105,8 @@
                     <h3>Profile of the Proprietor</h3>
                 </div>
                 <br>
-                <div style="display: flex;" class="part part_two">
-                    <div style="flex: 1;" data-aos="fade-right">
+                <div class="part part_two">
+                    <div data-aos="fade-right">
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                             Magnam, saepe. Inventore labore assumenda iste expedita 
@@ -117,7 +117,7 @@
                            voluptatibus, consequatur praeavfdaa
                         </p>
                     </div>
-                    <div style="flex: 1;" data-aos="flip-left">
+                    <div data-aos="flip-left">
                         <img  src="../MTC_Website/20200419-104210.png" alt="pwner's picture">
                     </div>
                 </div>
@@ -290,8 +290,8 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit expedita 
              </section>
 
                  <div class="ninth">
-                    <div>
-                        
+                    <div id="map">
+
                     </div>
                  </div>
 
@@ -489,5 +489,18 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit expedita 
     <script type="text/javascript">
       AOS.init();
       </script>
+      <script>
+        function initMap() {
+            var options = {
+                zoom: 8,
+                center:{lat: 6.5224782, lng: 3.2582053}
+            }
+            // 6.5224782, 3.2582053
+            var map = new google.maps.Map(document.getElementById('map'), options);
+        }
+    </script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB05PhHGPdCjkgj6oFaKZXQNRZbJyzWENQ&callback=initMap">
+    </script>
 </body>
 </html>
